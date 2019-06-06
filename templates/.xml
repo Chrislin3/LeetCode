@@ -1,7 +1,8 @@
 <templateSet group="方法">
-  <template name="main" value="public static void main(String[] args) {&#10;    $END$&#10;}" description="public static void main" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
+    <template name="main" value="public static void main(String[] args) {&#10;    $END$&#10;}"
+              description="public static void main" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_CODE" value="true"/>
+        </context>
+    </template>
 </templateSet>

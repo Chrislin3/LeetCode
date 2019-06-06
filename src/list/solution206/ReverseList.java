@@ -6,7 +6,7 @@ public class ReverseList {
     public ListNode reverseList(ListNode head) {
         ListNode pre = null;
         ListNode next = null;
-        while (head != null){
+        while (head != null) {
             next = head.next;
             head.next = pre;
             pre = head;
